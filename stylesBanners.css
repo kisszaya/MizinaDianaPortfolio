@@ -1,0 +1,93 @@
+
+.siteIllustrationsBlock {
+    margin: 0 auto;
+    width: 1150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 40px;
+}
+
+.bannersBlock {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 32px;
+}
+
+.first {
+    width: 48%;
+    object-fit: cover
+}
+
+.second {
+    width: 48%;
+    object-fit: cover
+}
+
+.third {
+    width: 100%;
+    object-fit: cover
+}
+
+.fourth {
+    width: 50%;
+    object-fit: cover
+}
+
+.fifth {
+    width: 46%;
+    object-fit: cover
+}
+
+@media screen and (max-width: 1279px) {
+    .siteIllustrationsBlock {
+        margin: 0 auto;
+        width: 880px;
+        justify-content: space-between;
+        padding-bottom: 40px;
+    }
+}
+
+@media screen and (max-width: 999px) {
+    .siteIllustrationsBlock {
+        margin: 0 auto;
+        width: 756px;
+        justify-content: space-between;
+        padding-bottom: 40px;
+    }
+
+    .bannersBlock {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-bottom: 16px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .siteIllustrationsBlock {
+        margin: 0 auto;
+        width: 460px;
+        justify-content: space-between;
+        padding-bottom: 40px;
+    }
+
+}
+
+@media screen and (max-width: 479px) {
+    .siteIllustrationsBlock {
+        margin-left: 16px;
+        margin-right: 16px;
+        width: auto;
+        justify-content: space-between;
+        padding-bottom: 40px;
+    }
+
+    .bannersBlock {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-bottom: 8px;
+    }
+}

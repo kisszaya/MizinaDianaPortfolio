@@ -1,0 +1,348 @@
+.wrapper {
+    background-color: #F6F1FE;
+    font-family: "Open Sans", serif;
+    color: #000000;
+    cursor: default;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    margin: 0 auto;
+    width: 1150px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 48px;
+    padding-top: 12px;
+}
+
+.nameBlock {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    margin-bottom: 2px;
+    width: 100%;
+}
+
+h2 {
+    margin: 0;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    width: 100%;
+}
+
+.linksBlock {
+    display: flex;
+    flex-direction: row;
+}
+
+a {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    margin-right: 40px;
+    color: #000000;
+}
+
+a:last-child {
+    margin-right: 0;
+}
+
+.activePage {
+    font-weight: 600;
+}
+
+footer {
+    background: #2B2534;
+}
+
+.footerContainer {
+    padding-bottom: 40px;
+    padding-top: 24px;
+    margin: 0 auto;
+    width: 1150px;
+}
+
+.footerTitle {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+.contactBlock {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-bottom: 8px;
+
+}
+
+.contactIcon {
+    margin-right: 16px;
+    margin-bottom: -4px;
+}
+
+.contactParagraph {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+}
+
+
+@media screen and (max-width: 1279px) {
+    header {
+        margin: 0 auto;
+        width: 880px;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding-bottom: 48px;
+        padding-top: 12px;
+    }
+
+    h1 {
+        font-size: 20px;
+        margin-bottom: 2px;
+    }
+
+    h2 {
+        font-size: 16px;
+    }
+
+    .linksBlock {
+        display: flex;
+        flex-direction: row;
+    }
+
+    a {
+        font-size: 16px;
+        line-height: 22px;
+        margin-right: 40px;
+    }
+
+    .activePage {
+        font-weight: 600;
+    }
+
+
+    .footerContainer {
+        padding-bottom: 40px;
+        padding-top: 24px;
+        margin: 0 auto;
+        width: 880px;
+    }
+
+    .footerTitle {
+        font-size: 16px;
+    }
+
+    .contactBlock {
+        margin-bottom: 8px;
+    }
+}
+
+@media screen and (max-width: 999px) {
+    header {
+        margin: 0 auto;
+        width: 756px;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-between;
+        padding-bottom: 48px;
+        padding-top: 12px;
+    }
+
+    .nameBlock {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 24px;
+    }
+
+    h1 {
+        font-size: 20px;
+        margin-bottom: 2px;
+    }
+
+    h2 {
+        font-size: 16px;
+        width: 100%;
+    }
+
+    .linksBlock {
+        justify-content: space-between;
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+
+    a {
+        font-size: 16px;
+        line-height: 22px;
+        margin-right: 16px;
+    }
+
+    .activePage {
+        font-weight: 600;
+    }
+
+
+    .footerContainer {
+        padding-bottom: 40px;
+        padding-top: 24px;
+        margin: 0 auto;
+        width: 756px;
+    }
+
+    .footerTitle {
+        font-size: 16px;
+    }
+
+    .contactBlock {
+        margin-bottom: 8px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    header {
+        margin: 0 auto;
+        width: 460px;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-between;
+        padding-bottom: 32px;
+        padding-top: 12px;
+    }
+
+    .nameBlock {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 24px;
+    }
+
+    h1 {
+        font-size: 20px;
+        margin-bottom: 2px;
+    }
+
+    h2 {
+        font-size: 16px;
+        width: 100%;
+    }
+
+    .linksBlock {
+        justify-content: flex-start;
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+
+    a {
+        font-size: 16px;
+        line-height: 22px;
+        margin-right: 16px;
+        width: 100%;
+    }
+
+    .activePage {
+        font-weight: 600;
+    }
+
+    .footerContainer {
+        padding-bottom: 40px;
+        padding-top: 24px;
+        margin: 0 auto;
+        width: 460px;
+    }
+
+    .footerTitle {
+        font-size: 16px;
+    }
+
+    .contactBlock {
+        margin-bottom: 8px;
+    }
+}
+
+@media screen and (max-width: 479px) {
+    header {
+        margin-left: 16px;
+        margin-right: 16px;
+        width: auto;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-between;
+        padding-bottom: 32px;
+        padding-top: 12px;
+    }
+
+    .nameBlock {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 24px;
+    }
+
+    h1 {
+        font-size: 20px;
+        margin-bottom: 2px;
+    }
+
+    h2 {
+        font-size: 16px;
+        width: 1    00%;
+    }
+
+    .linksBlock {
+        justify-content: flex-start;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    a {
+        font-size: 16px;
+        line-height: 22px;
+        margin-right: 16px;
+        width: 100%;
+    }
+
+    .activePage {
+        font-weight: 600;
+    }
+    footer{
+        width: 100%;
+    }
+
+    .footerContainer {
+        padding-bottom: 40px;
+        padding-top: 24px;
+        margin-left: 16px;
+        margin-right: 16px;
+        width: auto;
+    }
+
+    .footerTitle {
+        font-size: 16px;
+    }
+
+    .contactBlock {
+        margin-bottom: 8px;
+    }
+}
